@@ -1,0 +1,21 @@
+
+# Audio — see README on provenance and regeneration
+# Base checkpoint — download separately, exceeds GitHub limits
+dataset/h2r_audio_numbered/
+dataset/wavs/
+# Environment
+hi_base.ckpt
+# Model binary — distribute via GitHub Releases
+piper/
+*.pyc
+__pycache__/
+sanskrit.onnx
+# Scratch
+test.wav
+# Third-party clone (commit 73c04d81, see README)
+# Training artifacts — regenerable
+training/cache/
+training/dataset.jsonl
+training/lightning_logs/
+.venv/
+venv/
