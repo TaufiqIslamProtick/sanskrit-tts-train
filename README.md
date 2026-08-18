@@ -8,8 +8,8 @@ The exported model is a single **61 MB ONNX file** that runs CPU-only — small
 enough for a Raspberry Pi or a free-tier web host.
 
 ```bash
-echo "धन्यवादः" | piper --model sanskrit.onnx --output_file thank_you_in_sanskrit.wav
-aplay thank_you_in_sanskrit.wav
+$ echo "धन्यवादः" | piper --model sanskrit.onnx --output_file thank_you_in_sanskrit.wav
+$ aplay thank_you_in_sanskrit.wav
 ```
 
 ---
